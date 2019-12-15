@@ -25,7 +25,8 @@ end
 
 def using_insert(array,element)
   element.to_i
-  return array.insert(element)
+   array.insert(element)
+   return array
 end
 
 def using_uniq(array)
