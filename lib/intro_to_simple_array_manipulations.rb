@@ -19,6 +19,7 @@ end
 def shift_with_args(array)
   return array.shift(2)
 end
+
 def using_concat(a1,a2)
   return a1.concat(a2)
 end
