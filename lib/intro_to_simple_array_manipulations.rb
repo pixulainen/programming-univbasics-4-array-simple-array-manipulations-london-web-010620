@@ -25,9 +25,8 @@ def using_concat(a1,a2)
 end
 
 def using_insert(array,element)
-  element.to_i
-   array.insert(element)
-   return array
+ array.insert(element)
+ return array
 end
 
 def using_uniq(array)
