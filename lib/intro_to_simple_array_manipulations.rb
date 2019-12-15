@@ -23,8 +23,8 @@ def using_concat(a1,a2)
 end
 
 def using_insert(array,element)
-  new_e = element.to_i
-  return array.insert(new_e)
+  element.to_i
+  return array.insert(element)
 end
 
 def using_uniq(array)
